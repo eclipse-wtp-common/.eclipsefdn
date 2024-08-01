@@ -1,11 +1,11 @@
-site_name: Otterdog configuration @ {{ org }}
-site_description: Otterdog configuration @ {{ org }}
+site_name: Otterdog configuration @ eclipse-wtp-common
+site_description: Otterdog configuration @ eclipse-wtp-common
 strict: false
 
-site_url: https://{{ org }}.github.io/.eclipsefdn/
+site_url: https://eclipse-wtp-common.github.io/.eclipsefdn/
 
-repo_name: {{ org }}/.eclipsefdn
-repo_url: https://github.com/{{ org }}/.eclipsefdn/
+repo_name: eclipse-wtp-common/.eclipsefdn
+repo_url: https://github.com/eclipse-wtp-common/.eclipsefdn/
 
 docs_dir: ./docs
 site_dir: ./_site
@@ -35,7 +35,7 @@ nav:
 watch: []
 
 extra:
-  org_id: {{ org }}
+  org_id: eclipse-wtp-common
 
 extra_css:
   - stylesheets/extra.css
