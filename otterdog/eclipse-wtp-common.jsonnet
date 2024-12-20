@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-wtp-common') {
+orgs.newOrg('webtools.common', 'eclipse-wtp-common') {
   settings+: {
     description: "",
     name: "WTP Common project",
